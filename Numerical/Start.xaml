@@ -1,0 +1,22 @@
+﻿<Page x:Class="Numerical.Start"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Numerical"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="Start" Background="#FFEAB5B5">
+
+    <Grid Width="800" Height="600">
+
+        <Image HorizontalAlignment="Left" Height="600" VerticalAlignment="Top" Width="800" Source="res/blackground.png"/>
+
+        <Button x:Name="start" Content="Start" HorizontalAlignment="Left" Height="78" Margin="150,296,0,0" VerticalAlignment="Top" Width="140" FontFamily="JasmineUPC" FontSize="60" FontWeight="Bold" Click="start_Click"/>
+        <Label Content="ความเร็วรถคันที่ 1" HorizontalAlignment="Left" Margin="43,118,0,0" VerticalAlignment="Top" Height="44" Width="179" FontFamily="JasmineUPC" FontSize="30"/>
+        <TextBox x:Name="velocity1" HorizontalAlignment="Left" Height="41" Margin="254,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" FontFamily="JasmineUPC" FontSize="30" Text="0.0"/>
+        <TextBox x:Name="velocity2" HorizontalAlignment="Left" Height="41" Margin="254,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" FontFamily="JasmineUPC" FontSize="30" Text="0.0"/>
+        <Label Content="ความเร็วรถคันที่ 2" HorizontalAlignment="Left" Margin="43,212,0,0" VerticalAlignment="Top" Height="44" Width="179" FontFamily="JasmineUPC" FontSize="30"/>
+
+    </Grid>
+</Page>
